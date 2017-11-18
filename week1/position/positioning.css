@@ -1,0 +1,29 @@
+.maintext {
+	margin: 60px;
+}
+
+.box1 {
+	background:yellow;
+	height: 60px;
+	width: 200px;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+	text-align: center;
+}
+
+.box2 {
+	background: blue;
+    position: relative;
+    height: 200px;
+    text-align: center;
+}
+
+.box3 {
+	position: absolute;
+    right: -20px;
+    height: 60px;
+    margin-right: 10px;
+    background: gray;
+    bottom: 0;
+}
